@@ -32,6 +32,7 @@ This repository contains a minimal, modular Waybar configuration for Hyprland on
 
 - **Caffeine Toggle:** See [`modules/CAFFEINE.md`](modules/CAFFEINE.md)
 - **Clipboard History:** See [`modules/CLIPBOARD.md`](modules/CLIPBOARD.md)
+- **New Modules Coming Soon...**
 
 ## Contributing
 
