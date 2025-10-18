@@ -1,4 +1,4 @@
-# Omarchy Waybar Config
+# Omarchy Waybar Addons Config
 
 This repository contains a minimal, modular Waybar configuration for Hyprland on Omarchy Linux. It is designed for easy use, sharing, and contribution.
 
