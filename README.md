@@ -22,9 +22,7 @@ This repository contains a minimal, modular Waybar configuration for Hyprland on
    chmod +x ~/.config/waybar/modules/*.sh
    ```
 
-3. **Set up clipboard history services:**
-   See `CLIPBOARD.md` for instructions.
-4. **Reload Waybar:**
+3. **Reload Waybar:**
 
    ```bash
     killall waybar && nohup waybar >/dev/null 2>&1 &          
@@ -32,8 +30,8 @@ This repository contains a minimal, modular Waybar configuration for Hyprland on
 
 ## Modules
 
-- **Caffeine Toggle:** See [`CAFFEINE.md`](CAFFEINE.md)
-- **Clipboard History:** See [`CLIPBOARD.md`](CLIPBOARD.md)
+- **Caffeine Toggle:** See [`modules/CAFFEINE.md`](modules/CAFFEINE.md)
+- **Clipboard History:** See [`modules/CLIPBOARD.md`](modules/CLIPBOARD.md)
 
 ## Contributing
 
