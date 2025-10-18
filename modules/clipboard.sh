@@ -6,10 +6,10 @@ if [ "$1" = "icon" ]; then
   exit 0
 fi
 
-selected=$(cliphist list | wofi --show dmenu -p "Clipboard history")
+selected=$(cliphist list | wofi --show dmenu -p "Clipboard history" -i)
 if [ -n "$selected" ]; then
   # Copy to both CLIPBOARD and PRIMARY selections
-  decoded=$(echo -n "$selected" | cliphist decode)
-  printf '%s' "$decoded" | wl-copy
-  printf '%s' "$decoded" | wl-copy --primary
+  # Use cliphist decode to get the full original content
+  cliphist decode <<<"$selected" | wl-copy
+  cliphist decode <<<"$selected" | wl-copy --primary
 fi
