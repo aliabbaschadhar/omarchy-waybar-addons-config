@@ -2,7 +2,8 @@
 # Show clipboard history and copy selected entry
 
 if [ "$1" = "icon" ]; then
-  echo '{"text": "📋", "tooltip": "Clipboard history"}'
+  # Use Nerd Font clipboard icon for consistent sizing
+  echo '{"text": "", "tooltip": "Clipboard history"}'
   exit 0
 fi
 
