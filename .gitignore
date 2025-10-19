@@ -1,0 +1,6 @@
+# Ignore editor/backup files
+*.bak*
+*~
+*.swp
+*.swo
+.DS_Store
